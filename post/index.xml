@@ -2,11 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 私语</title>
-    <link>http://localhost:52893/post/</link>
+    <link>http://localhost:54237/post/</link>
     <description>Recent content in Posts on 私语</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:52893/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Mar 2024 10:52:54 +0800</lastBuildDate>
+    <atom:link href="http://localhost:54237/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:54237/post/my-first-post/</link>
+      <pubDate>Sat, 02 Mar 2024 10:52:54 +0800</pubDate>
+      <guid>http://localhost:54237/post/my-first-post/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
