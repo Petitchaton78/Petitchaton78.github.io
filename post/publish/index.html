@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<style type=text/css>body{font-family:monospace;}</style>
-	<title>Chongsheng</title>
+	<title>发布</title>
 	
 	
 	<link rel="stylesheet" href="/css/style.css">
@@ -37,12 +37,26 @@
 	
 	<main>
 		<article>
-			<h1>Chongsheng</h1>
-			<b><time>02.03.2024 18:10</time></b>
+			<h1>发布</h1>
+			<b><time>15.04.2022 18:56</time></b>
 		       
 
 			<div>
-				<p>Test from ob</p>
+				<h1 id="发布流程基本代码">发布流程基本代码</h1>
+<h2 id="1-创建新post名称自选">1 创建新post，名称自选</h2>
+<p>cd blog_loveit</p>
+<p>hugo new posts/daily_note_n.md</p>
+<p>cd content/posts</p>
+<p>./daily_note_n.md</p>
+<p>Modify and save</p>
+<h2 id="2-生成可发布代码">2 生成可发布代码</h2>
+<p>cd blog_loveit</p>
+<p>hugo &ndash; generate public file （must in parent directory)</p>
+<h2 id="3-git-同步">3 git 同步</h2>
+<p>cd ../public</p>
+<p>git add .</p>
+<p>git commit -m &ldquo;modify&rdquo;</p>
+<p>git push</p>
 
 			</div>
 		</article>

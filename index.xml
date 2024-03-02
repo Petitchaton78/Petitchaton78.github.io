@@ -13,7 +13,7 @@
       <link>https://Petitchaton78.github.io/post/chongsheng/</link>
       <pubDate>Sat, 02 Mar 2024 18:10:42 +0800</pubDate>
       <guid>https://Petitchaton78.github.io/post/chongsheng/</guid>
-      <description></description>
+      <description>Test from ob</description>
     </item>
     <item>
       <title>About</title>
@@ -35,6 +35,20 @@
       <pubDate>Thu, 11 May 2023 17:16:59 +0800</pubDate>
       <guid>https://Petitchaton78.github.io/post/_delsyncfiles/posts/20230501/</guid>
       <description>test i dont know</description>
+    </item>
+    <item>
+      <title>发布</title>
+      <link>https://Petitchaton78.github.io/post/publish/</link>
+      <pubDate>Fri, 15 Apr 2022 18:56:56 +0800</pubDate>
+      <guid>https://Petitchaton78.github.io/post/publish/</guid>
+      <description>发布流程基本代码 1 创建新post，名称自选 cd blog_loveit&#xA;hugo new posts/daily_note_n.md&#xA;cd content/posts&#xA;./daily_note_n.md&#xA;Modify and save&#xA;2 生成可发布代码 cd blog_loveit&#xA;hugo &amp;ndash; generate public file （must in parent directory)&#xA;3 git 同步 cd ../public&#xA;git add .&#xA;git commit -m &amp;ldquo;modify&amp;rdquo;&#xA;git push</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://Petitchaton78.github.io/post/%E7%9B%AE%E5%89%8D%E5%90%8C%E6%AD%A5%E6%B5%81%E7%A8%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://Petitchaton78.github.io/post/%E7%9B%AE%E5%89%8D%E5%90%8C%E6%AD%A5%E6%B5%81%E7%A8%8B/</guid>
+      <description>利用mac的folder sync 同步桌面（icloud）myblog文件夹 到 Vault的Family file文件夹，然后再用hbs 每5分钟同步一下 onedrive backup 里面的blog 和 Family file里面的myblog/content/post</description>
     </item>
   </channel>
 </rss>
