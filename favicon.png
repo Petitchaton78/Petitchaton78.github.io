@@ -1,4 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
-  <rect width="192" height="192" rx="38" ry="38" fill="#3498db"/>
-  <text x="96" y="140" font-family="Arial, sans-serif" font-size="120" font-weight="bold" text-anchor="middle" fill="white">M</text>
+  <!-- 圆角矩形背景 -->
+  <rect width="192" height="192" rx="48" ry="48" fill="#2c3e50"/>
+  
+  <!-- 简约几何化的 M 字母 - 使用路径而不是文本 -->
+  <path d="M48 48 L48 144 L72 144 L96 90 L120 144 L144 144 L144 48 L120 48 L120 110 L96 60 L72 110 L72 48 Z" 
+        fill="#ecf0f1" stroke="#ecf0f1" stroke-width="2"/>
 </svg>
